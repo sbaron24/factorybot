@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :recipe do
-    name { "Vegan Pasta" }
+    sequence(:name) { |n| "Vegan Pasta #{n}" }
     description { "cashew cream with broccoli" }
     instructions { "steps go here" }
     servings { 4 }
