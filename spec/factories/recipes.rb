@@ -1,9 +1,9 @@
 FactoryBot.define do
   factory :recipe do
-    name { "MyString" }
-    description { "MyText" }
-    instructions { "MyText" }
-    servings { 1 }
+    name { "Vegan Pasta" }
+    description { "cashew cream with broccoli" }
+    instructions { "steps go here" }
+    servings { 4 }
     cooking_time { 1 }
   end
 end
